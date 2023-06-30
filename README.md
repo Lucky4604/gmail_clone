@@ -1,4 +1,4 @@
-# gmail!
+# gmail_clone
 [Screenshot (31)](https://github.com/Lucky4604/gmail/assets/87716511/64ad817a-f373-4c1c-8bef-e0e7576b68fe)
 ![Screenshot (32)](https://github.com/Lucky4604/gmail/assets/87716511/184623f4-a715-43eb-9517-de186246887f)![Screenshot (31)](https://github.com/Lucky4604/gmail/assets/87716511/b801dce7-31a1-4c00-8df6-75e503edd589)
 
