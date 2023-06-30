@@ -9,6 +9,8 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json({extended:true}));
 app.use('/',routes)
 
+app.use(express.static(path.join("__dirname","./client/build")));
+
 
 app.listen(5000,async()=>{
     console.log("server running on port 5000")
