@@ -1,63 +1,89 @@
-# gmail_clone
+# Gmail Clone
 
-Installation:
+A clone of Gmail with frontend and backend functionalities. 
+
+## Installation
 
 To run the Gmail Clone project locally, follow these steps:
 
-Clone the repository: git clone <repository-url>
+### Clone the Repository
 
-Navigate to the project directory: cd gmail_clone
+```bash
+git clone <repository-url>
+cd gmail_clone
+```
 
-Install the dependencies:
+### Install Dependencies
 
-For the client (frontend), navigate to the client folder: cd client and run npm install
+#### Client (Frontend)
 
-For the server (backend), navigate to the server folder: cd server and run npm install
+```bash
+cd client
+npm install
+```
 
-Configure the database:
+#### Server (Backend)
 
-Create a MongoDB Atlas account and set up a cluster.
+```bash
+cd server
+npm install
+```
 
-Update the MongoDB connection string in the server's .env file.
+### Configure the Database
 
-Run the application:
+1. Create a MongoDB Atlas account and set up a cluster.
+2. Update the MongoDB connection string in the server's `.env` file.
 
-For the client (frontend), inside the client folder, run npm start
+### Run the Application
 
-For the server (backend), inside the server folder, run npm start
+#### Client (Frontend)
 
+```bash
+cd client
+npm start
+```
 
-![Screenshot (31)](https://github.com/Lucky4604/gmail/assets/87716511/af3048be-4475-45aa-8c8e-06a0880731f0)
+#### Server (Backend)
 
-! [Screenshot (31)](https://github.com/Lucky4604/gmail/assets/87716511/64ad817a-f373-4c1c-8bef-e0e7576b68fe)
+```bash
+cd server
+npm start
+```
 
+## Screenshots
 
-![Screenshot (35)](https://github.com/Lucky4604/gmail/assets/87716511/e534fc4d-a8a7-4182-a02a-3172ec4ed7e9)
+![Screenshot 1](https://github.com/Lucky4604/gmail/assets/87716511/af3048be-4475-45aa-8c8e-06a0880731f0)
 
+![Screenshot 2](https://github.com/Lucky4604/gmail/assets/87716511/64ad817a-f373-4c1c-8bef-e0e7576b68fe)
 
-![Screenshot (32)](https://github.com/Lucky4604/gmail/assets/87716511/184623f4-a715-43eb-9517-de186246887f)
+![Screenshot 3](https://github.com/Lucky4604/gmail/assets/87716511/e534fc4d-a8a7-4182-a02a-3172ec4ed7e9)
 
+![Screenshot 4](https://github.com/Lucky4604/gmail/assets/87716511/184623f4-a715-43eb-9517-de186246887f)
 
-
-
-
-
-
-Contributing
+## Contributing
 
 If you'd like to contribute to this project, you can follow these steps:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Create a pull request explaining your changes.
 
-Create a new branch: git checkout -b feature/your-feature-name
+## License
 
-Make your changes and commit them: git commit -m "Add your message"
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Push to the branch: git push origin feature/your-feature-name
+## Contact
 
-Create a pull request explaining your changes.
-
-
-
-
+For any questions or inquiries, please contact the project maintainer.
 
